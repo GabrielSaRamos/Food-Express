@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="/src/styles/style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Food Express</title>
+</head>
+<body> 
+        <header>
+            <nav id="navbar">
+                <a href="#home"> <i class="fa-solid fa-burger" id="nav_logo">FOOD EXPRESS</i> </a>
+               
+
+                <ul id="nav_list">
+                    <li class="nav-item active"> <a href="#home">Inicio</a> </li>
+                    <li class="nav-item"> <a href="#menu">Cardapio</a> </li>
+                    <li class="nav-item"> <a href="#testimonials">Avaliações</a> </li>
+                </ul>
+
+                <button class="btn-default"> Peça aqui!</button>
+
+                <button id="mobile_btn"><i class="fa-solid fa-bars"></i></button>
+            </nav>
+
+            <div id="mobile_menu">
+                <ul id="mobile_nav_list">
+                    <li class="nav-item" > <a href="#home">Inicio</a> </li>
+                    <li class="nav-item"> <a href="#menu">Cardapio</a> </li>
+                    <li class="nav-item"> <a href="#testimonials">Avaliações</a> </li>
+                </ul>
+
+                <button class="btn-default"> Peça aqui!</button>
+            </div>
+
+      
+        </header>
+
+
+        <main id="content">
+            <section id="home">
+                <div class="shape"> </div>
+                <div id="cta">
+                    <h1 id="cta_title">Exageradamente <span>Gostoso</span> </h1>
+
+                    <p class="cta_description"> Aqui você encontrará os melhores <b>PRATOS</b> da nossa região. Venha saborear você tambem! </p>
+
+                    <div id="cta_buttons">
+                        <a href="#menu" class="btn-default"> Ver Cardapio</a>
+
+                        <a href="tel:+5511968429516" id="phone_button"> 
+                            <button class="btn-default"> 
+                                <i class="fa-solid fa-phone"></i> 
+                            </button>
+                            (55) 96842-9516
+                        </a>
+                    </div>
+
+                    <div class="social-media-buttons">
+                        <a href=""><i class="fa-brands fa-whatsapp" style="color: #08bf88;"></i></a>
+                        <a href="https://www.instagram.com/gabriel_sa99/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/gabriel-de-sá-ramos/"><i class="fa-brands fa-linkedin" style="color: #105ee5;"></i></a>
+                    </div>
+                </div>
+
+                <div id="banner">
+                    <img src="src/img/almoços/prato.png" style="object-fit: cover;" alt="">
+                </div>
+            </section>
+
+            <section id="menu">
+                <h2 class="section-title">Cardapio</h2>
+                <h3 class="section-subtitle">Nossos pratos especiais</h3>
+
+                <div id="dishes">
+                    <div class="dish">
+                        <div class="dish-heart">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+
+                        <img src="src/img/almoços/prato1.png" class="dish-image" alt="" style="object-fit: cover;">
+                         
+                        <h3 class="dish-title">Bifão acebolado</h3>
+
+                        <span class="dish-description">Bife acebolada + arroz branco + fritas + salada de alface</span>
+
+                        <div class="dish-rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(500+)</span>
+                        </div>
+
+                        <div class="dish-price">
+                            <h4>R$29,90</h4>
+                            <button class="btn-default">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="dish">
+                        <div class="dish-heart">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+
+                        <img src="src/img/almoços/prato2.png" class="dish-image" alt=""  style="object-fit: cover;">
+                         
+                        <h3 class="dish-title">Frango Express</h3>
+
+                        <span class="dish-description">Coxa de frango + fritas + molho barbecue + tomate + alface</span>
+
+                        <div class="dish-rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(500+)</span>
+                        </div>
+
+                        <div class="dish-price">
+                            <h4>R$40,00</h4>
+                            <button class="btn-default">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="dish">
+                        <div class="dish-heart">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+
+                        <img src="src/img/almoços/prato3.png" class="dish-image" alt="">
+                         
+                        <h3 class="dish-title">Camarao Express</h3>
+
+                        <span class="dish-description">Camarão + alface + fritas + salada de cebola  </span>
+
+                        <div class="dish-rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(500+)</span>
+                        </div>
+
+                        <div class="dish-price">
+                            <h4>R$50,00</h4>
+                            <button class="btn-default">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="dish">
+                        <div class="dish-heart">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+
+                        <img src="src/img/almoços/parmegianta.png" class="dish-image" alt="">
+                         
+                        <h3 class="dish-title">Parmegiana</h3>
+
+                        <span class="dish-description">Carne parmegiana + fritas + arroz branco ou tropeiro  </span>
+
+                        <div class="dish-rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(500+)</span>
+                        </div>
+
+                        <div class="dish-price">
+                            <h4>R$29,90</h4>
+                            <button class="btn-default">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="dishes">
+                    <div class="dish">
+                        <div class="dish-heart">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+
+                        <img src="src/img/doces/doce.png" class="dish-image" alt="" style="object-fit: cover; height: 200px;">
+                         
+                        <h3 class="dish-title">Bolo de chocolate </h3>
+
+                        <span class="dish-description">Bolo + Chocolate + Morango + creme + Ovomaltine </span>
+
+                        <div class="dish-rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(500+)</span>
+                        </div>
+
+                        <div class="dish-price">
+                            <h4>R$50,00</h4>
+                            <button class="btn-default">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="dish">
+                        <div class="dish-heart">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+
+                        <img src="src/img/doces/doce2.png" class="dish-image" alt="" style="height: 200px; object-fit: cover;">
+                         
+                        <h3 class="dish-title">Bolo Churros</h3>
+
+                        <span class="dish-description">Bolo doce de leite + Paçoca + Amendoim + Cobertura </span>
+
+                        <div class="dish-rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(500+)</span>
+                        </div>
+
+                        <div class="dish-price">
+                            <h4>R$50,00</h4>
+                            <button class="btn-default">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="dish">
+                        <div class="dish-heart">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+
+                        <img src="src/img/doces/doce3.png" class="dish-image" alt="" style="object-fit: cover; height: 200px;">
+                         
+                        <h3 class="dish-title">Bolo Prestigio</h3>
+
+                        <span class="dish-description">Chocolate em pó + Glace Branco + Biscoito</span>
+
+                        <div class="dish-rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(500+)</span>
+                        </div>
+
+                        <div class="dish-price">
+                            <h4>R$50,00</h4>
+                            <button class="btn-default">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="dish">
+                        <div class="dish-heart">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+
+                        <img src="src/img/doces/doce4.png" class="dish-image" alt="" style="object-fit: cover; height: 200px;">
+                         
+                        <h3 class="dish-title">Cupcake</h3>
+
+                        <span class="dish-description">Cupcake + Cobertura de chocolate + Biscoito</span>
+
+                        <div class="dish-rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(500+)</span>
+                        </div>
+
+                        <div class="dish-price">
+                            <h4>R$30,00</h4>
+                            <button class="btn-default">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+
+            <section id="testimonials">
+                <img src="src/img/chef.png" style="width: 500px; height: auto; object-fit: cover;" alt="" id="testimonial_chef">
+
+                <div id="testimonails_content">
+                    <h2 class="section-title"> Avaliações: </h2>
+                   
+                    <h3 class="section-subtitle"> Algumas frases de nossos <span style="color: var(--color-primary-6);"> SABOREADORES! </span></h3>
+
+                    <div id="feedbacks">
+                        <div class="feedback">
+                            <img src="src/img/avatar.png" alt="" class="feedback-avatar">
+                            
+                            <div class="feedback-content">
+                                <p> 
+                                   <b>Ana Julia</b> 
+                                    <span> 
+                                        <i class="fa-solid fa-star " style="color: var(--color-primary-6);"></i>
+                                        <i class="fa-solid fa-star " style="color: var(--color-primary-6);"></i>
+                                        <i class="fa-solid fa-star " style="color: var(--color-primary-6);"></i>
+                                        <i class="fa-solid fa-star " style="color: var(--color-primary-6);"></i>
+                                        <i class="fa-solid fa-star " style="color: var(--color-primary-6);"></i>
+                                     </span>
+                                 </p>
+    
+                                 <p>"Paguei barato e é melhor cupkcake do mundo. Ameii!!!"</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feedback">
+                            <img src="src/img/avatar1.jpg" alt="" class="feedback-avatar" style="border-radius: 100%;">
+                            
+                            <div class="feedback-content">
+                                <p> 
+                                    <b>João Vitor</b> 
+                                    <span> 
+                                        <i class="fa-solid fa-star " style="color: var(--color-primary-6);"></i>
+                                        <i class="fa-solid fa-star " style="color: var(--color-primary-6);"></i>
+                                        <i class="fa-solid fa-star " style="color: var(--color-primary-6);"></i>
+                                        <i class="fa-solid fa-star " style="color: var(--color-primary-6);"></i>
+                                        <i class="fa-solid fa-star " style="color: var(--color-primary-6);"></i>
+                                     </span>
+                                 </p>
+    
+                                 <p>"Sem duvidas este bifão acebolado salvou meu almoço hahaha"</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <button class="btn-default"> Ver mais Avaliações</button>
+                </div>
+            
+                
+                
+             
+            </section>
+        </main>
+
+        <footer>
+            <img src="src/img/wave (1).svg" alt="">
+
+            <div id="footer_itens"> 
+                <span id="copyright"> &copy 2024 Gabriel Ramos  </span>
+
+                <div class="social-media-buttons">
+                    <a href=""><i class="fa-brands fa-whatsapp" style="color: #08bf88;"></i></a>
+                    <a href="https://www.instagram.com/gabriel_sa99/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/gabriel-de-sá-ramos/"><i class="fa-brands fa-linkedin" style="color: #105ee5;"></i></a>
+                </div>
+            </div>
+
+           
+            
+        </footer>
+
+        <script src="src/javaScript/script.js"></script>
+</body>
+</html>
