@@ -40,6 +40,19 @@
     justify-content: space-between;
 }
 
+.comentario{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    display: none;
+
+}
+
 @media screen and (max-width: 1170px) {
     #testimonials{
         flex-direction: column;
